@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+</head>
+<body>
+    <div class="main_container">
+        <div>
+            <h1 id="heading">calc</h1>
+        </div>
+        <div ><input type ="text" class="Box1" id="display"></div>
+        <div class="Grid">
+            <div><input class = "Grid1" type = "button" value = "7" onclick = "insert(7)"></div>
+            <div><input class = "Grid1" type = "button" value = "8" onclick = "insert(8)"></div>
+            <div><input class = "Grid1" type = "button" value = "9" onclick = "insert(9)"></div>
+            <div><input class = "Grid1" id="Grid4" type = "button" value = "DEL" onclick = "deleteCharacter()"></div>
+            <div><input class = "Grid1" type = "button" value = "4" onclick = "insert(4)"></div>
+            <div><input class = "Grid1" type = "button" value = "5" onclick = "insert(5)"></div>
+            <div><input class = "Grid1" type = "button" value = "6" onclick = "insert(6)"></div>
+            <div><input class = "Grid1" type = "button" value = "+" onclick = "insert('+')"></div>
+            <div><input class = "Grid1" type = "button" value = "1" onclick = "insert(1)"></div>
+            <div><input class = "Grid1" type = "button" value = "2" onclick = "insert(2)"></div>
+            <div><input class = "Grid1" type = "button" value = "3" onclick = "insert(3)"></div>
+            <div><input class = "Grid1" type = "button" value = "-" onclick = "insert('-')"></div>
+            <div><input class = "Grid1" type = "button" value = "." onclick = "insert('.')"></div>
+            <div><input class = "Grid1" type = "button" value = "0" onclick = "insert(0)"></div>
+            <div><input class = "Grid1" type = "button" value = "/" onclick = "insert('/')"></div>
+            <div><input class = "Grid1" type = "button" value = "x" onclick = "insert('*')"></div>
+            <div><input class = "Grid1" id="Grid17" type = "button" value = "RESET" onclick = "reset()"></div>
+            <div><input class = "Grid1" id="Grid18" type = "button" value = "=" onclick = "equalto('=')"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
